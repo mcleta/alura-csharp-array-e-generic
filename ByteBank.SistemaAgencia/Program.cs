@@ -12,7 +12,11 @@ namespace ByteBank.SistemaAgencia
     {
         static void Main(string[] args)
         {
-            
+            Lista<int> lista = new Lista<int>();
+
+            lista.Adicionar(1);
+            lista.AdicionarVarios(1, 2, 3, 3, 4, 5, 6, 7, 8, 9, 1, 2, 3, 4, 5, 6, 7, 8, 9, 14, 1, 2, 3, 5, 6, 7, 8, 9, 9, 8, 7, 4, 6, 5, 63, 2, 1, 3);
+
 
             Console.WriteLine(SomarVarios(1, 2, 3, 5, 56465, 45));
             Console.WriteLine(SomarVarios(1, 2, 45));
